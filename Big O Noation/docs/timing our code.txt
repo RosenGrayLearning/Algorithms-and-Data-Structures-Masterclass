@@ -1,0 +1,36 @@
+- here are two options for same solution (function which takes an n, and return the sam of all
+givven number). 
+so if n = 3, 1+2+3 = 6;
+/***************************
+function addUpTo(n) {
+    let total = 0;
+
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+
+    return total;
+
+}
+
+
+function addUpTo(n) {
+    return n * (n + 1) / 2;
+}
+
+/***************************
+
+- the second options is faster and more efficient in terms of performance. 
+- one way of calculate our time, is by using the performance() method
+  but it is not something that we can usally do, as if we would have a large app 
+  which takes an hour to run, we can not afford to use it and compare it to other process 
+  which can run 4 hours or so.
+- so there is another way to achive this.
+
+
+https://www.iaf.org.il/9202-en/IAF.aspx
+http://vladon.whist.co.il/ach
+http://vladon.whist.co.il/workit
+http://testm.com
+https://www.fingrow.co.il/he
+https://www.johnbryce.co.il

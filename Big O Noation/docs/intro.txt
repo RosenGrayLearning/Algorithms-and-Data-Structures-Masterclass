@@ -1,0 +1,5 @@
+https://cs.slides.com/colt_steele/big-o-notation#/7/0/0
+
+1. having multiple implementation of the same functions (2 or more solutions for on problem);
+   with Big O notation , we can determine which solution is the "best" solution, in terms 
+   of performance
