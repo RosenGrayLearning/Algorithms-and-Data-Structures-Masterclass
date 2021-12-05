@@ -1,0 +1,21 @@
+const power = (base,exponent) => {
+  if(exponent === 0) return 1;
+  return base * power(base,exponent - 1);
+}
+
+
+
+// console.log(power(2,0)) //1
+console.log(power(2,2))//4
+console.log(power(2,4))//16
+
+
+1. power(7,4); // 2401
+2. 7 * power(7,4-1); 7 * 343 = 2401
+3. 7 * power(7,3-1); 7 * 49 = 343
+4. 7 * power(7,2-1); 7 * 7 = 49 ; pops out of the stack
+5. 7 * power(7,1-1); (exponent === 0) return 1 , so 7 * 1 = 7; pops out of the stack
+
+
+
+

@@ -1,0 +1,16 @@
+- Base Case - the most important rule in recursive functions; we have to define a base case, which means : when the recursion stops.
+- Different input - a second rule - the function should be called each time with a different input.
+
+function countDown(num){
+  if(num <= 0){
+    //Our base case - stopping point
+    console.log('we are done');
+    return;
+  }
+  console.log(num);
+  num--;
+  countDown(num);
+}
+
+
+countDown(10)

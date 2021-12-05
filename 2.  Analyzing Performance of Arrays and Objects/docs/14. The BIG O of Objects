@@ -1,0 +1,5 @@
+Objects has constant time - 
+1. inseration = o(1)
+2. removal = o(1)
+3. searching = o(n)
+4. access = o(1)

@@ -1,0 +1,30 @@
+- Big O notation is a way to formlize fuzzy counting.
+- it allows us to talk formally about how the runtime of an algorithm 
+  grows as the inputs grow.
+- f(n) could be linear (f(n) = n)
+- f(n) could be quadratic (f(n) = n2)
+- f(n) could be constant (f(n) = 1)
+- f(n) could be something entirely different
+
+following our previos examples :
+
+function addUpTo(n) {
+  return n * (n + 1) / 2;
+}
+
+-it has constant number of operations (always 3)
+- so we can say that it has - O of 1 ; O(1)
+
+function addUpTo(n) {
+    let total = 0;
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+    return total;
+}
+
+- it grows lineary as our n grows. 
+- so we can say that it has O of n O(n)
+
+
+- nested loops are O(n) operations inside of an O(n) Operation - O(n2)

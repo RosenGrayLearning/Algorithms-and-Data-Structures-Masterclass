@@ -1,5 +1,5 @@
-- here are two options for same solution (function which takes an n, and return the sam of all
-givven number). 
+- here are two options for same solution (function which takes an n, and returns the sum of all
+givven numbers). 
 so if n = 3, 1+2+3 = 6;
 /***************************
 function addUpTo(n) {
@@ -28,9 +28,3 @@ function addUpTo(n) {
 - so there is another way to achive this.
 
 
-https://www.iaf.org.il/9202-en/IAF.aspx
-http://vladon.whist.co.il/ach
-http://vladon.whist.co.il/workit
-http://testm.com
-https://www.fingrow.co.il/he
-https://www.johnbryce.co.il

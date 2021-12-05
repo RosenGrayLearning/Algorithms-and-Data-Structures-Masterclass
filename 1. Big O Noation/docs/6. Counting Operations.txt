@@ -1,0 +1,37 @@
+- different machines will record different times
+- the same machines will often record a different time as well
+- so as mentioned before, timing our selfs, is not very efficient 
+- so instead counting time, we can count the number of operations that our computer has to perform.
+- the number of operations is always the same (no metter what kind of specifications our computerh has).
+
+/***************************** for example *********************************/
+        function addUpTo(n) {
+            return n * (n + 1) / 2;
+        }
+        it has 3 operations: 
+        1. addition
+        2. multiplication 
+        3. division
+- it does not metter whas our 'n' is. if it 10, 20 or 100 - the number of operations stays the same.  
+
+/***************************** for example *********************************/
+function addUpTo(n) {
+    let total = 0;
+
+    for (let i = 1; i <= n; i++) {
+        total += i;
+    }
+
+    return total;
+
+}
+
+- here it completly differet thing. 
+1. we have n number of additions 
+2. we have n number of assigments 
+3. we have in the brackets another n number of additions and assigments 
+4. we have n comparisons 
+5. we have in the begining 1 assignment 
+and so on....
+
+SO - as n grows, the number of operations grows roughly proportionally with n.
